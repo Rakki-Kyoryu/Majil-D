@@ -158,10 +158,35 @@
         <div class="form-container">
             <h3>Additional Information</h3>
             <form action="/update-additional-info" method="post">
-                <!-- Add additional fields here -->
+                <label for="address">Address:</label><br>
+                <input type="text" id="address" name="address"><br>
+                
+                <label for="phone">Phone Number:</label><br>
+                <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="123-456-7890"><br>
+                
+                <label for="occupation">Occupation:</label><br>
+                <input type="text" id="occupation" name="occupation"><br>
+                
+                <label for="education">Education:</label><br>
+                <select id="education" name="education">
+                    <option value="high-school">High School</option>
+                    <option value="bachelors">Bachelor's Degree</option>
+                    <option value="masters">Master's Degree</option>
+                    <option value="doctorate">Doctorate</option>
+                    <option value="other">Other</option>
+                </select><br>
+                
+                <label for="bio">Bio:</label><br>
+                <textarea id="bio" name="bio" rows="4"></textarea><br>
+                
+                <label for="interests">Interests:</label><br>
+                <input type="text" id="interests" name="interests"><br>
+                
+                <button type="submit">Update Additional Info</button>
             </form>
         </div>
     </div>
+    
 
     <script>
         function openTab(evt, tabName) {
