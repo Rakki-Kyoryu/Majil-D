@@ -16,7 +16,7 @@ public class Currency {
     public static void main(String[] args) {
         System.out.println("Hello World");
         System.out.println("Day");
-        System.out.println("Visual code is easier to use");
+        System.out.println("HIii");
         //Testing testing 1 2 3 
     }
     
