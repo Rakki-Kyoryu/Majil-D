@@ -4,6 +4,8 @@
  */
 package currency;
 
+import java.io.File;
+
 /**
  *
  * @author donvintruty
@@ -17,6 +19,13 @@ public class Currency {
         System.out.println("Hello World");
         System.out.println("Day");
         System.out.println("HIii");
+        try {
+            String url = "file:///C:/Users/Dtrut/Majil-D/Majil-D/src/currency/Friends.html";
+            java.awt.Desktop.getDesktop().browse(java.net.URI.create(url));
+          }
+          catch (java.io.IOException e) {
+              System.out.println(e.getMessage());
+          }
         //Testing testing 1 2 3 
     }
     
