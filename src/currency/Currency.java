@@ -20,7 +20,7 @@ public class Currency {
         System.out.println("Day");
         System.out.println("HIii");
         try {
-            String url = "file:///C:/Users/Dtrut/Majil-D/Majil-D/src/currency/Friends.html";
+            String url = "http://localhost:8080/Index.html";
             java.awt.Desktop.getDesktop().browse(java.net.URI.create(url));
           }
           catch (java.io.IOException e) {
